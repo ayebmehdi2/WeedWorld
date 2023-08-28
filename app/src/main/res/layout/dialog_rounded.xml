@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/rounded_dialog_background">
+
+    <!-- Add your dialog content views here -->
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your order! I hope you enjoy your new purchase!"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="#00C853"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done!"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@color/zxing_transparent"
+        android:layout_gravity="center" />
+</LinearLayout>

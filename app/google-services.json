@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "4914208812",
+    "firebase_url": "https://weedworld-9b373.firebaseio.com",
+    "project_id": "weedworld-9b373",
+    "storage_bucket": "weedworld-9b373.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4914208812:android:4879f82e25aa9e7ebfb189",
+        "android_client_info": {
+          "package_name": "com.example.weedworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4914208812-npkmlpg4vdk4uttjog79vg2lmrqstg0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwfLwqeCC9Z5Je6QDnMePLs1COVRAW7NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4914208812-npkmlpg4vdk4uttjog79vg2lmrqstg0h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "4914208812-1vbie14g2n1g8qh9edvotibpnn2sdlvc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weedworld.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4914208812:android:61ac2b52e80f7654bfb189",
+        "android_client_info": {
+          "package_name": "com.itshedi.weedworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4914208812-npkmlpg4vdk4uttjog79vg2lmrqstg0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwfLwqeCC9Z5Je6QDnMePLs1COVRAW7NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4914208812-npkmlpg4vdk4uttjog79vg2lmrqstg0h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "4914208812-1vbie14g2n1g8qh9edvotibpnn2sdlvc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weedworld.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4914208812:android:a457d2ec3570343abfb189",
+        "android_client_info": {
+          "package_name": "com.weed_world.weed_world"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4914208812-npkmlpg4vdk4uttjog79vg2lmrqstg0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwfLwqeCC9Z5Je6QDnMePLs1COVRAW7NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4914208812-npkmlpg4vdk4uttjog79vg2lmrqstg0h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "4914208812-1vbie14g2n1g8qh9edvotibpnn2sdlvc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weedworld.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

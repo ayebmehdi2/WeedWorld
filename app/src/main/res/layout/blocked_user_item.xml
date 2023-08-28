@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="80dp">
+
+
+    <ImageView
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/blockuser"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James Don"
+            android:textSize="14dp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginStart="16dp"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WW ID:  WW500555"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginStart="14sp"
+            android:textColor="#616161"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="1dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_green"
+        android:text="Block"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:layout_marginEnd="16dp"/>
+
+
+</LinearLayout>

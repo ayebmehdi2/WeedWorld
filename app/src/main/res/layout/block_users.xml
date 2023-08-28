@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/bar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/backk"
+            />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="32dp"
+            android:src="@drawable/block"
+            />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Block users"
+        android:textSize="16sp"
+        android:layout_margin="16sp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/search"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_width="match_parent"
+        android:background="@drawable/back_white"
+        android:layout_height="45dp"
+        android:textSize="12sp"
+        android:drawableLeft="@drawable/search"
+        android:paddingStart="16dp"
+        android:hint="User name, WW ID.."
+        android:layout_margin="16dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/search"
+        tools:listitem="@layout/blocked_user_item"/>
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
